@@ -1,0 +1,1481 @@
+{
+	"case_name": "all_case",
+	"case_ranges": [
+		[
+			1,
+			33
+		]
+	],
+	"cluster_configs": [
+		{
+			"GPUs": {
+				"A100": 10,
+				"GTX2080Ti": 15,
+				"V100": 20
+			},
+			"gpu_count": 45
+		}
+	],
+	"reports": {
+		"Allox": [
+			{
+				"scheduler_name": "AlloxScheduler",
+				"scheduler_info": "AlloxScheduler[online=false]",
+				"cluster_config": {
+					"GPUs": {
+						"A100": 10,
+						"GTX2080Ti": 15,
+						"V100": 20
+					},
+					"gpu_count": 45
+				},
+				"case_range": [
+					1,
+					33
+				],
+				"execution": {
+					"average_jct_seconds": 5724.6875,
+					"average_queue_delay_seconds": 258.28125,
+					"average_ddl_violation_duration_seconds": 325,
+					"total_ddl_violation_duration_seconds": 325,
+					"ddl_violated_jobs_count": 1,
+					"finished_jobs_count": 32,
+					"do_schedule_count": 1,
+					"average_do_schedule_duration_ms": 0,
+					"max_do_schedule_duration_ms": 426,
+					"scheduler_execution_record_extra": null
+				},
+				"job_reports": [
+					{
+						"job_name": "openb-pod-1773",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1062,
+						"start_time": 0,
+						"end_time": 1062
+					},
+					{
+						"job_name": "openb-pod-6369",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1086,
+						"start_time": 0,
+						"end_time": 1086
+					},
+					{
+						"job_name": "openb-pod-1869",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1138,
+						"start_time": 0,
+						"end_time": 1138
+					},
+					{
+						"job_name": "openb-pod-7728",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-7737",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-3068",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1229,
+						"start_time": 0,
+						"end_time": 1229
+					},
+					{
+						"job_name": "openb-pod-1467",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1350,
+						"start_time": 0,
+						"end_time": 1350
+					},
+					{
+						"job_name": "openb-pod-6778",
+						"selected_gpu_id": 10,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 1443,
+						"start_time": 0,
+						"end_time": 1443
+					},
+					{
+						"job_name": "openb-pod-5365",
+						"selected_gpu_id": 12,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 1814,
+						"start_time": 0,
+						"end_time": 1814
+					},
+					{
+						"job_name": "openb-pod-5036",
+						"selected_gpu_id": 11,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 2254,
+						"start_time": 0,
+						"end_time": 2254
+					},
+					{
+						"job_name": "openb-pod-6520",
+						"selected_gpu_id": 7,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2399,
+						"start_time": 0,
+						"end_time": 2399
+					},
+					{
+						"job_name": "openb-pod-3864",
+						"selected_gpu_id": 22,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 2651,
+						"start_time": 0,
+						"end_time": 2651
+					},
+					{
+						"job_name": "openb-pod-2439",
+						"selected_gpu_id": 24,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3056,
+						"start_time": 0,
+						"end_time": 3056
+					},
+					{
+						"job_name": "openb-pod-2957",
+						"selected_gpu_id": 17,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3088,
+						"start_time": 0,
+						"end_time": 3088
+					},
+					{
+						"job_name": "openb-pod-3253",
+						"selected_gpu_id": 20,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3114.9999999999995,
+						"start_time": 0,
+						"end_time": 3114.9999999999995
+					},
+					{
+						"job_name": "openb-pod-5009",
+						"selected_gpu_id": 18,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3676,
+						"start_time": 0,
+						"end_time": 3676
+					},
+					{
+						"job_name": "openb-pod-6749",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2371,
+						"start_time": 1350,
+						"end_time": 3721
+					},
+					{
+						"job_name": "openb-pod-7280",
+						"selected_gpu_id": 14,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3845.000000000001,
+						"start_time": 0,
+						"end_time": 3845.000000000001
+					},
+					{
+						"job_name": "openb-pod-1544",
+						"selected_gpu_id": 21,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3959.999999999999,
+						"start_time": 0,
+						"end_time": 3959.999999999999
+					},
+					{
+						"job_name": "openb-pod-5901",
+						"selected_gpu_id": 19,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3988.0000000000005,
+						"start_time": 0,
+						"end_time": 3988.0000000000005
+					},
+					{
+						"job_name": "openb-pod-7279",
+						"selected_gpu_id": 23,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4337,
+						"start_time": 0,
+						"end_time": 4337
+					},
+					{
+						"job_name": "openb-pod-4291",
+						"selected_gpu_id": 16,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4558,
+						"start_time": 0,
+						"end_time": 4558
+					},
+					{
+						"job_name": "openb-pod-1315",
+						"selected_gpu_id": 15,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5142.000000000001,
+						"start_time": 0,
+						"end_time": 5142.000000000001
+					},
+					{
+						"job_name": "openb-pod-2718",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 4192.000000000002,
+						"start_time": 1138,
+						"end_time": 5330.000000000002
+					},
+					{
+						"job_name": "openb-pod-1808",
+						"selected_gpu_id": 13,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5697.000000000002,
+						"start_time": 0,
+						"end_time": 5697.000000000002
+					},
+					{
+						"job_name": "openb-pod-4479",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 6069.000000000001,
+						"start_time": 0,
+						"end_time": 6069.000000000001
+					},
+					{
+						"job_name": "openb-pod-3868",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 5523.000000000002,
+						"start_time": 1229,
+						"end_time": 6752.000000000002
+					},
+					{
+						"job_name": "openb-pod-7941",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 11135.999999999998,
+						"start_time": 1200,
+						"end_time": 12335.999999999998
+					},
+					{
+						"job_name": "openb-pod-2884",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 14586.999999999998,
+						"start_time": 0,
+						"end_time": 14586.999999999998
+					},
+					{
+						"job_name": "openb-pod-2354",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 21303.999999999993,
+						"start_time": 1062,
+						"end_time": 22365.999999999993
+					},
+					{
+						"job_name": "openb-pod-4733",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 22724.000000000007,
+						"start_time": 1200,
+						"end_time": 23924.000000000007
+					},
+					{
+						"job_name": "openb-pod-7234",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 23731,
+						"start_time": 1086,
+						"end_time": 24817
+					}
+				]
+			}
+		],
+		"Chronus": [
+			{
+				"scheduler_name": "ChronusScheduler",
+				"scheduler_info": "ChronusScheduler",
+				"cluster_config": {
+					"GPUs": {
+						"A100": 10,
+						"GTX2080Ti": 15,
+						"V100": 20
+					},
+					"gpu_count": 45
+				},
+				"case_range": [
+					1,
+					33
+				],
+				"execution": {
+					"average_jct_seconds": 9589.874999999998,
+					"average_queue_delay_seconds": 0,
+					"average_ddl_violation_duration_seconds": 15377.000000000007,
+					"total_ddl_violation_duration_seconds": 15377.000000000007,
+					"ddl_violated_jobs_count": 1,
+					"finished_jobs_count": 32,
+					"do_schedule_count": 32,
+					"average_do_schedule_duration_ms": 0,
+					"max_do_schedule_duration_ms": 0,
+					"scheduler_execution_record_extra": null
+				},
+				"job_reports": [
+					{
+						"job_name": "openb-pod-6778",
+						"selected_gpu_id": 7,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1005,
+						"start_time": 0,
+						"end_time": 1005
+					},
+					{
+						"job_name": "openb-pod-5365",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1016,
+						"start_time": 0,
+						"end_time": 1016
+					},
+					{
+						"job_name": "openb-pod-1773",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1062,
+						"start_time": 0,
+						"end_time": 1062
+					},
+					{
+						"job_name": "openb-pod-6369",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1086,
+						"start_time": 0,
+						"end_time": 1086
+					},
+					{
+						"job_name": "openb-pod-1869",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1138,
+						"start_time": 0,
+						"end_time": 1138
+					},
+					{
+						"job_name": "openb-pod-7737",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-7728",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-3068",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1229,
+						"start_time": 0,
+						"end_time": 1229
+					},
+					{
+						"job_name": "openb-pod-5036",
+						"selected_gpu_id": 20,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 2254,
+						"start_time": 0,
+						"end_time": 2254
+					},
+					{
+						"job_name": "openb-pod-6520",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2399,
+						"start_time": 0,
+						"end_time": 2399
+					},
+					{
+						"job_name": "openb-pod-1467",
+						"selected_gpu_id": 16,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 2530.0000000000005,
+						"start_time": 0,
+						"end_time": 2530.0000000000005
+					},
+					{
+						"job_name": "openb-pod-2439",
+						"selected_gpu_id": 18,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3056.0000000000005,
+						"start_time": 0,
+						"end_time": 3056.0000000000005
+					},
+					{
+						"job_name": "openb-pod-2957",
+						"selected_gpu_id": 10,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3087.9999999999995,
+						"start_time": 0,
+						"end_time": 3087.9999999999995
+					},
+					{
+						"job_name": "openb-pod-3253",
+						"selected_gpu_id": 14,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3115.0000000000005,
+						"start_time": 0,
+						"end_time": 3115.0000000000005
+					},
+					{
+						"job_name": "openb-pod-3864",
+						"selected_gpu_id": 31,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 3637.0000000000005,
+						"start_time": 0,
+						"end_time": 3637.0000000000005
+					},
+					{
+						"job_name": "openb-pod-5009",
+						"selected_gpu_id": 12,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3676,
+						"start_time": 0,
+						"end_time": 3676
+					},
+					{
+						"job_name": "openb-pod-7280",
+						"selected_gpu_id": 17,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3845,
+						"start_time": 0,
+						"end_time": 3845
+					},
+					{
+						"job_name": "openb-pod-1544",
+						"selected_gpu_id": 21,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3960,
+						"start_time": 0,
+						"end_time": 3960
+					},
+					{
+						"job_name": "openb-pod-5901",
+						"selected_gpu_id": 13,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3987.999999999999,
+						"start_time": 0,
+						"end_time": 3987.999999999999
+					},
+					{
+						"job_name": "openb-pod-6749",
+						"selected_gpu_id": 15,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4278.999999999999,
+						"start_time": 0,
+						"end_time": 4278.999999999999
+					},
+					{
+						"job_name": "openb-pod-7279",
+						"selected_gpu_id": 19,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4337,
+						"start_time": 0,
+						"end_time": 4337
+					},
+					{
+						"job_name": "openb-pod-4291",
+						"selected_gpu_id": 22,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4558,
+						"start_time": 0,
+						"end_time": 4558
+					},
+					{
+						"job_name": "openb-pod-1315",
+						"selected_gpu_id": 23,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5142.000000000001,
+						"start_time": 0,
+						"end_time": 5142.000000000001
+					},
+					{
+						"job_name": "openb-pod-1808",
+						"selected_gpu_id": 24,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5697,
+						"start_time": 0,
+						"end_time": 5697
+					},
+					{
+						"job_name": "openb-pod-2718",
+						"selected_gpu_id": 11,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 7457.999999999999,
+						"start_time": 0,
+						"end_time": 7457.999999999999
+					},
+					{
+						"job_name": "openb-pod-3868",
+						"selected_gpu_id": 42,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 13546,
+						"start_time": 0,
+						"end_time": 13546
+					},
+					{
+						"job_name": "openb-pod-4479",
+						"selected_gpu_id": 26,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 15316,
+						"start_time": 0,
+						"end_time": 15316
+					},
+					{
+						"job_name": "openb-pod-7234",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 23731,
+						"start_time": 0,
+						"end_time": 23731
+					},
+					{
+						"job_name": "openb-pod-7941",
+						"selected_gpu_id": 33,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 28958.99999999998,
+						"start_time": 0,
+						"end_time": 28958.99999999998
+					},
+					{
+						"job_name": "openb-pod-2884",
+						"selected_gpu_id": 41,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 38285.00000000001,
+						"start_time": 0,
+						"end_time": 38285.00000000001
+					},
+					{
+						"job_name": "openb-pod-4733",
+						"selected_gpu_id": 38,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 54827,
+						"start_time": 0,
+						"end_time": 54827
+					},
+					{
+						"job_name": "openb-pod-2354",
+						"selected_gpu_id": 44,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 56256.99999999999,
+						"start_time": 0,
+						"end_time": 56256.99999999999
+					}
+				]
+			}
+		],
+		"Fgt": [
+			{
+				"scheduler_name": "FragScheduler",
+				"scheduler_info": "FragScheduler",
+				"cluster_config": {
+					"GPUs": {
+						"A100": 10,
+						"GTX2080Ti": 15,
+						"V100": 20
+					},
+					"gpu_count": 45
+				},
+				"case_range": [
+					1,
+					33
+				],
+				"execution": {
+					"average_jct_seconds": 6113.125,
+					"average_queue_delay_seconds": 364.375,
+					"average_ddl_violation_duration_seconds": 1045,
+					"total_ddl_violation_duration_seconds": 1045,
+					"ddl_violated_jobs_count": 1,
+					"finished_jobs_count": 32,
+					"do_schedule_count": 1,
+					"average_do_schedule_duration_ms": 0,
+					"max_do_schedule_duration_ms": 1,
+					"scheduler_execution_record_extra": null
+				},
+				"job_reports": [
+					{
+						"job_name": "openb-pod-6520",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 3855,
+						"start_time": 0,
+						"end_time": 3855
+					},
+					{
+						"job_name": "openb-pod-7279",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 3036,
+						"start_time": 0,
+						"end_time": 3036
+					},
+					{
+						"job_name": "openb-pod-1808",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 3855,
+						"start_time": 0,
+						"end_time": 3855
+					},
+					{
+						"job_name": "openb-pod-1773",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 6069,
+						"start_time": 0,
+						"end_time": 6069
+					},
+					{
+						"job_name": "openb-pod-4291",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 11136,
+						"start_time": 1062,
+						"end_time": 12198
+					},
+					{
+						"job_name": "openb-pod-7941",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 11136,
+						"start_time": 1062,
+						"end_time": 12198
+					},
+					{
+						"job_name": "openb-pod-4479",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 6069,
+						"start_time": 0,
+						"end_time": 6069
+					},
+					{
+						"job_name": "openb-pod-6778",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1016,
+						"start_time": 0,
+						"end_time": 1016
+					},
+					{
+						"job_name": "openb-pod-5009",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 5523,
+						"start_time": 1016,
+						"end_time": 6539
+					},
+					{
+						"job_name": "openb-pod-3868",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 5523,
+						"start_time": 1016,
+						"end_time": 6539
+					},
+					{
+						"job_name": "openb-pod-5365",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1016,
+						"start_time": 0,
+						"end_time": 1016
+					},
+					{
+						"job_name": "openb-pod-7280",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2371,
+						"start_time": 0,
+						"end_time": 2371
+					},
+					{
+						"job_name": "openb-pod-6749",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2371,
+						"start_time": 0,
+						"end_time": 2371
+					},
+					{
+						"job_name": "openb-pod-6369",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-1315",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 4192,
+						"start_time": 1200,
+						"end_time": 5392
+					},
+					{
+						"job_name": "openb-pod-2718",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 4192,
+						"start_time": 1200,
+						"end_time": 5392
+					},
+					{
+						"job_name": "openb-pod-7737",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-7728",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1229,
+						"start_time": 0,
+						"end_time": 1229
+					},
+					{
+						"job_name": "openb-pod-2884",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 22724,
+						"start_time": 1229,
+						"end_time": 23953
+					},
+					{
+						"job_name": "openb-pod-2354",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 21304,
+						"start_time": 1229,
+						"end_time": 22533
+					},
+					{
+						"job_name": "openb-pod-4733",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 22724,
+						"start_time": 1229,
+						"end_time": 23953
+					},
+					{
+						"job_name": "openb-pod-3068",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1229,
+						"start_time": 0,
+						"end_time": 1229
+					},
+					{
+						"job_name": "openb-pod-2957",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1749,
+						"start_time": 0,
+						"end_time": 1749
+					},
+					{
+						"job_name": "openb-pod-2439",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1749,
+						"start_time": 0,
+						"end_time": 1749
+					},
+					{
+						"job_name": "openb-pod-1467",
+						"selected_gpu_id": 7,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1528,
+						"start_time": 0,
+						"end_time": 1528
+					},
+					{
+						"job_name": "openb-pod-5036",
+						"selected_gpu_id": 7,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1528,
+						"start_time": 0,
+						"end_time": 1528
+					},
+					{
+						"job_name": "openb-pod-1869",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1417,
+						"start_time": 0,
+						"end_time": 1417
+					},
+					{
+						"job_name": "openb-pod-7234",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 23731,
+						"start_time": 1417,
+						"end_time": 25148
+					},
+					{
+						"job_name": "openb-pod-3864",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1417,
+						"start_time": 0,
+						"end_time": 1417
+					},
+					{
+						"job_name": "openb-pod-3253",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2848,
+						"start_time": 0,
+						"end_time": 2848
+					},
+					{
+						"job_name": "openb-pod-1544",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2175,
+						"start_time": 0,
+						"end_time": 2175
+					},
+					{
+						"job_name": "openb-pod-5901",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 2848,
+						"start_time": 0,
+						"end_time": 2848
+					}
+				]
+			}
+		],
+		"Gavel": [
+			{
+				"scheduler_name": "GavelScheduler",
+				"scheduler_info": "GavelScheduler",
+				"cluster_config": {
+					"GPUs": {
+						"A100": 10,
+						"GTX2080Ti": 15,
+						"V100": 20
+					},
+					"gpu_count": 45
+				},
+				"case_range": [
+					1,
+					33
+				],
+				"execution": {
+					"average_jct_seconds": 10737.03125,
+					"average_queue_delay_seconds": 0,
+					"average_ddl_violation_duration_seconds": 8724.499999999993,
+					"total_ddl_violation_duration_seconds": 17448.999999999985,
+					"ddl_violated_jobs_count": 2,
+					"finished_jobs_count": 32,
+					"do_schedule_count": 32,
+					"average_do_schedule_duration_ms": 0,
+					"max_do_schedule_duration_ms": 1,
+					"scheduler_execution_record_extra": null
+				},
+				"job_reports": [
+					{
+						"job_name": "openb-pod-6778",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1005,
+						"start_time": 0,
+						"end_time": 1005
+					},
+					{
+						"job_name": "openb-pod-5365",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1016,
+						"start_time": 0,
+						"end_time": 1016
+					},
+					{
+						"job_name": "openb-pod-1773",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1062,
+						"start_time": 0,
+						"end_time": 1062
+					},
+					{
+						"job_name": "openb-pod-6369",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1086,
+						"start_time": 0,
+						"end_time": 1086
+					},
+					{
+						"job_name": "openb-pod-1869",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1138,
+						"start_time": 0,
+						"end_time": 1138
+					},
+					{
+						"job_name": "openb-pod-7728",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-7737",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-3068",
+						"selected_gpu_id": 7,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1229,
+						"start_time": 0,
+						"end_time": 1229
+					},
+					{
+						"job_name": "openb-pod-1467",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1350,
+						"start_time": 0,
+						"end_time": 1350
+					},
+					{
+						"job_name": "openb-pod-3864",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1417,
+						"start_time": 0,
+						"end_time": 1417
+					},
+					{
+						"job_name": "openb-pod-5036",
+						"selected_gpu_id": 10,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 2254,
+						"start_time": 0,
+						"end_time": 2254
+					},
+					{
+						"job_name": "openb-pod-2439",
+						"selected_gpu_id": 19,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3056,
+						"start_time": 0,
+						"end_time": 3056
+					},
+					{
+						"job_name": "openb-pod-2957",
+						"selected_gpu_id": 15,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3088,
+						"start_time": 0,
+						"end_time": 3088
+					},
+					{
+						"job_name": "openb-pod-3253",
+						"selected_gpu_id": 21,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3115.0000000000005,
+						"start_time": 0,
+						"end_time": 3115.0000000000005
+					},
+					{
+						"job_name": "openb-pod-5009",
+						"selected_gpu_id": 14,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3676,
+						"start_time": 0,
+						"end_time": 3676
+					},
+					{
+						"job_name": "openb-pod-7280",
+						"selected_gpu_id": 18,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3845,
+						"start_time": 0,
+						"end_time": 3845
+					},
+					{
+						"job_name": "openb-pod-1544",
+						"selected_gpu_id": 12,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3960,
+						"start_time": 0,
+						"end_time": 3960
+					},
+					{
+						"job_name": "openb-pod-5901",
+						"selected_gpu_id": 13,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3987.9999999999995,
+						"start_time": 0,
+						"end_time": 3987.9999999999995
+					},
+					{
+						"job_name": "openb-pod-6749",
+						"selected_gpu_id": 17,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4279,
+						"start_time": 0,
+						"end_time": 4279
+					},
+					{
+						"job_name": "openb-pod-6520",
+						"selected_gpu_id": 22,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4318,
+						"start_time": 0,
+						"end_time": 4318
+					},
+					{
+						"job_name": "openb-pod-7279",
+						"selected_gpu_id": 11,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4337,
+						"start_time": 0,
+						"end_time": 4337
+					},
+					{
+						"job_name": "openb-pod-4291",
+						"selected_gpu_id": 23,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4558,
+						"start_time": 0,
+						"end_time": 4558
+					},
+					{
+						"job_name": "openb-pod-1315",
+						"selected_gpu_id": 16,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5142,
+						"start_time": 0,
+						"end_time": 5142
+					},
+					{
+						"job_name": "openb-pod-1808",
+						"selected_gpu_id": 24,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5697.000000000002,
+						"start_time": 0,
+						"end_time": 5697.000000000002
+					},
+					{
+						"job_name": "openb-pod-2718",
+						"selected_gpu_id": 20,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 7458.000000000001,
+						"start_time": 0,
+						"end_time": 7458.000000000001
+					},
+					{
+						"job_name": "openb-pod-3868",
+						"selected_gpu_id": 26,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 13546,
+						"start_time": 0,
+						"end_time": 13546
+					},
+					{
+						"job_name": "openb-pod-4479",
+						"selected_gpu_id": 30,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 15315.999999999998,
+						"start_time": 0,
+						"end_time": 15315.999999999998
+					},
+					{
+						"job_name": "openb-pod-7941",
+						"selected_gpu_id": 35,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 28958.999999999993,
+						"start_time": 0,
+						"end_time": 28958.999999999993
+					},
+					{
+						"job_name": "openb-pod-2884",
+						"selected_gpu_id": 39,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 38285.00000000001,
+						"start_time": 0,
+						"end_time": 38285.00000000001
+					},
+					{
+						"job_name": "openb-pod-4733",
+						"selected_gpu_id": 34,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 54827,
+						"start_time": 0,
+						"end_time": 54827
+					},
+					{
+						"job_name": "openb-pod-2354",
+						"selected_gpu_id": 27,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 56257,
+						"start_time": 0,
+						"end_time": 56257
+					},
+					{
+						"job_name": "openb-pod-7234",
+						"selected_gpu_id": 41,
+						"selected_gpu_type": "V100",
+						"runtime_on_gpu": 61920.99999999998,
+						"start_time": 0,
+						"end_time": 61920.99999999998
+					}
+				]
+			}
+		],
+		"HydraPureHeuristic": [
+			{
+				"scheduler_name": "KMeansScheduler",
+				"scheduler_info": {
+					"DistanceAlgo": "MinCostDistanceAlgo[minCostAlgo=SwapHeuristic]",
+					"ScheduleScheme": "BasicScheduleScheme[Parallel=true, OneShot=true]",
+					"Type": "KMeansScheduler"
+				},
+				"cluster_config": {
+					"GPUs": {
+						"A100": 10,
+						"GTX2080Ti": 15,
+						"V100": 20
+					},
+					"gpu_count": 45
+				},
+				"case_range": [
+					1,
+					33
+				],
+				"execution": {
+					"average_jct_seconds": 5788.0625,
+					"average_queue_delay_seconds": 279.25,
+					"average_ddl_violation_duration_seconds": 0,
+					"total_ddl_violation_duration_seconds": 0,
+					"ddl_violated_jobs_count": 0,
+					"finished_jobs_count": 32,
+					"do_schedule_count": 1,
+					"average_do_schedule_duration_ms": 0,
+					"max_do_schedule_duration_ms": 170,
+					"scheduler_execution_record_extra": {
+						"average_k_means_round_duration_ms": 5,
+						"max_k_means_round_duration_ms": 37,
+						"min_k_means_round_duration_ms": 0,
+						"distance_solver_record_extra": {
+							"memorized_call_count": 21824,
+							"non_memorized_call_count": 1936,
+							"call_count": 23760,
+							"distance_algo_record_extra": {
+								"call_count": 1936,
+								"use_min_cost_algo_count": 135,
+								"use_sjf_greedy_count": 1801,
+								"average_min_cost_algo_durations_ms": 0,
+								"min_cost_algo_record_extra": null
+							}
+						}
+					}
+				},
+				"job_reports": [
+					{
+						"job_name": "openb-pod-6778",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1005,
+						"start_time": 0,
+						"end_time": 1005
+					},
+					{
+						"job_name": "openb-pod-5365",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1016,
+						"start_time": 0,
+						"end_time": 1016
+					},
+					{
+						"job_name": "openb-pod-1773",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1062,
+						"start_time": 0,
+						"end_time": 1062
+					},
+					{
+						"job_name": "openb-pod-6369",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1086,
+						"start_time": 0,
+						"end_time": 1086
+					},
+					{
+						"job_name": "openb-pod-1869",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1138,
+						"start_time": 0,
+						"end_time": 1138
+					},
+					{
+						"job_name": "openb-pod-7737",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-7728",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1200,
+						"start_time": 0,
+						"end_time": 1200
+					},
+					{
+						"job_name": "openb-pod-3068",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1229,
+						"start_time": 0,
+						"end_time": 1229
+					},
+					{
+						"job_name": "openb-pod-1467",
+						"selected_gpu_id": 7,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1350,
+						"start_time": 0,
+						"end_time": 1350
+					},
+					{
+						"job_name": "openb-pod-3864",
+						"selected_gpu_id": 4,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 1417,
+						"start_time": 0,
+						"end_time": 1417
+					},
+					{
+						"job_name": "openb-pod-5036",
+						"selected_gpu_id": 12,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 2254,
+						"start_time": 0,
+						"end_time": 2254
+					},
+					{
+						"job_name": "openb-pod-2439",
+						"selected_gpu_id": 19,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3056,
+						"start_time": 0,
+						"end_time": 3056
+					},
+					{
+						"job_name": "openb-pod-2957",
+						"selected_gpu_id": 13,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3088,
+						"start_time": 0,
+						"end_time": 3088
+					},
+					{
+						"job_name": "openb-pod-3253",
+						"selected_gpu_id": 21,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3115.0000000000005,
+						"start_time": 0,
+						"end_time": 3115.0000000000005
+					},
+					{
+						"job_name": "openb-pod-5009",
+						"selected_gpu_id": 18,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3676,
+						"start_time": 0,
+						"end_time": 3676
+					},
+					{
+						"job_name": "openb-pod-7280",
+						"selected_gpu_id": 16,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3845,
+						"start_time": 0,
+						"end_time": 3845
+					},
+					{
+						"job_name": "openb-pod-1544",
+						"selected_gpu_id": 14,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3960,
+						"start_time": 0,
+						"end_time": 3960
+					},
+					{
+						"job_name": "openb-pod-5901",
+						"selected_gpu_id": 24,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 3987.9999999999995,
+						"start_time": 0,
+						"end_time": 3987.9999999999995
+					},
+					{
+						"job_name": "openb-pod-6749",
+						"selected_gpu_id": 11,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4279,
+						"start_time": 0,
+						"end_time": 4279
+					},
+					{
+						"job_name": "openb-pod-6520",
+						"selected_gpu_id": 10,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4318,
+						"start_time": 0,
+						"end_time": 4318
+					},
+					{
+						"job_name": "openb-pod-7279",
+						"selected_gpu_id": 20,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4337,
+						"start_time": 0,
+						"end_time": 4337
+					},
+					{
+						"job_name": "openb-pod-4291",
+						"selected_gpu_id": 15,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 4558,
+						"start_time": 0,
+						"end_time": 4558
+					},
+					{
+						"job_name": "openb-pod-1315",
+						"selected_gpu_id": 23,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5142,
+						"start_time": 0,
+						"end_time": 5142
+					},
+					{
+						"job_name": "openb-pod-2718",
+						"selected_gpu_id": 3,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 4192,
+						"start_time": 1005,
+						"end_time": 5197
+					},
+					{
+						"job_name": "openb-pod-1808",
+						"selected_gpu_id": 22,
+						"selected_gpu_type": "GTX2080Ti",
+						"runtime_on_gpu": 5697.000000000002,
+						"start_time": 0,
+						"end_time": 5697.000000000002
+					},
+					{
+						"job_name": "openb-pod-3868",
+						"selected_gpu_id": 2,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 5523,
+						"start_time": 1016,
+						"end_time": 6539
+					},
+					{
+						"job_name": "openb-pod-4479",
+						"selected_gpu_id": 1,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 6069.000000000001,
+						"start_time": 1062,
+						"end_time": 7131.000000000001
+					},
+					{
+						"job_name": "openb-pod-7941",
+						"selected_gpu_id": 9,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 11136.000000000004,
+						"start_time": 1086,
+						"end_time": 12222.000000000004
+					},
+					{
+						"job_name": "openb-pod-2884",
+						"selected_gpu_id": 6,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 14587.000000000004,
+						"start_time": 1138,
+						"end_time": 15725.000000000004
+					},
+					{
+						"job_name": "openb-pod-2354",
+						"selected_gpu_id": 0,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 21304,
+						"start_time": 1200,
+						"end_time": 22504
+					},
+					{
+						"job_name": "openb-pod-4733",
+						"selected_gpu_id": 8,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 22724.000000000015,
+						"start_time": 1200,
+						"end_time": 23924.000000000015
+					},
+					{
+						"job_name": "openb-pod-7234",
+						"selected_gpu_id": 5,
+						"selected_gpu_type": "A100",
+						"runtime_on_gpu": 23731,
+						"start_time": 1229,
+						"end_time": 24960
+					}
+				]
+			}
+		]
+	}
+}

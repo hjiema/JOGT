@@ -1,0 +1,60 @@
+Scheduler,Case Range,Max End Time
+Allox,"(0, 21)",23731
+Chronus,"(0, 21)",45277.99999999999
+Fgt,"(0, 21)",23731
+Gavel,"(0, 21)",45277.99999999999
+HydraPureHeuristic,"(0, 21)",24960
+Scheduler,Case Range,Max End Time
+Allox,"(0, 43)",46597.000000000015
+Chronus,"(0, 43)",110702.99999999991
+Fgt,"(0, 43)",47406
+Gavel,"(0, 43)",110702.99999999988
+HydraPureHeuristic,"(0, 43)",49338.000000000015
+Scheduler,Case Range,Max End Time
+Allox,"(0, 66)",68596.99999999997
+Chronus,"(0, 66)",159821
+Fgt,"(0, 66)",68943
+Gavel,"(0, 66)",111341.00000000009
+HydraPureHeuristic,"(0, 66)",94495.99999999999
+Scheduler,Case Range,Max End Time
+Allox,"(0, 88)",12482234.000000006
+Chronus,"(0, 88)",23365128.99999999
+Fgt,"(0, 88)",12485622
+Gavel,"(0, 88)",30166561.999999974
+HydraPureHeuristic,"(0, 88)",12492142.000000007
+Scheduler,Case Range,Max End Time
+Allox,"(0, 114)",12485744.000000015
+Chronus,"(0, 114)",30173907.999999966
+Fgt,"(0, 114)",12498902
+Gavel,"(0, 114)",12483900.000000013
+HydraPureHeuristic,"(0, 114)",12501120.000000004
+Scheduler,Case Range,Max End Time
+Allox,"(0, 137)",12494558.000000006
+Chronus,"(0, 137)",12488009.000000011
+Fgt,"(0, 137)",12499712
+Gavel,"(0, 137)",30177473.999999966
+HydraPureHeuristic,"(0, 137)",12507701.000000004
+Scheduler,Case Range,Max End Time
+Allox,"(0, 161)",12494342.000000013
+Chronus,"(0, 161)",23378302.999999993
+Fgt,"(0, 161)",12499522
+Gavel,"(0, 161)",30175874.999999966
+HydraPureHeuristic,"(0, 161)",12507610.000000004
+Scheduler,Case Range,Max End Time
+Allox,"(0, 184)",12505974.000000006
+Chronus,"(0, 184)",30184559.999999978
+Fgt,"(0, 184)",12508509
+Gavel,"(0, 184)",23389361.999999996
+HydraPureHeuristic,"(0, 184)",12527813.000000007
+Scheduler,Case Range,Max End Time
+Allox,"(0, 205)",12510016.000000011
+Chronus,"(0, 205)",12506659.000000011
+Fgt,"(0, 205)",12497452
+Gavel,"(0, 205)",23391231.999999996
+HydraPureHeuristic,"(0, 205)",12530164.000000006
+Scheduler,Case Range,Max End Time
+Allox,"(0, 229)",12515491.000000011
+Chronus,"(0, 229)",12510705.000000004
+Fgt,"(0, 229)",12509156
+Gavel,"(0, 229)",12507644.00000001
+HydraPureHeuristic,"(0, 229)",12522798.000000006

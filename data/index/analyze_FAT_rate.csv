@@ -1,0 +1,104 @@
+-------------10----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 10)",8029420043.337532
+ChronusScheduler,"(1, 10)",8029420043.337532
+FragScheduler,"(1, 10)",25831060375.025185
+GavelScheduler,"(1, 10)",8029420043.337532
+KMeansScheduler,"(1, 10)",8029420043.337532
+-------------20----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 21)",68522552722.63225
+ChronusScheduler,"(1, 21)",82779177506.59949
+FragScheduler,"(1, 21)",77988291408.96095
+GavelScheduler,"(1, 21)",228895976681.2593
+KMeansScheduler,"(1, 21)",73076539296.80101
+-------------30----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 33)",94037601958.11713
+ChronusScheduler,"(1, 33)",213522400081.80725
+FragScheduler,"(1, 33)",128968515147.62593
+GavelScheduler,"(1, 33)",510962414257.77686
+KMeansScheduler,"(1, 33)",96579619990.08186
+-------------40----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 43)",457363496360.3657
+ChronusScheduler,"(1, 43)",2337200349715.005
+FragScheduler,"(1, 43)",472820149639.6472
+GavelScheduler,"(1, 43)",2634648168002.104
+KMeansScheduler,"(1, 43)",484597971140.9067
+-------------50----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 55)",916175599505.9446
+ChronusScheduler,"(1, 55)",1661785289881.5923
+FragScheduler,"(1, 55)",1035195765165.8878
+GavelScheduler,"(1, 55)",985861801802.0591
+KMeansScheduler,"(1, 55)",1055280177932.0214
+-------------60----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 66)",1721264539491.9138
+ChronusScheduler,"(1, 66)",2837232654198.9336
+FragScheduler,"(1, 66)",1757565665968.3499
+GavelScheduler,"(1, 66)",4331703298250.001
+KMeansScheduler,"(1, 66)",2305440831830.718
+-------------70----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 78)",1.440316848365505e+16
+ChronusScheduler,"(1, 78)",8.416599833595658e+16
+FragScheduler,"(1, 78)",1.8303894497779548e+16
+GavelScheduler,"(1, 78)",8.416852675670534e+16
+KMeansScheduler,"(1, 78)",1.441757164517669e+16
+-------------80----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 88)",1.4408787734158074e+16
+ChronusScheduler,"(1, 88)",5.0494431297895784e+16
+FragScheduler,"(1, 88)",1.4414569266360076e+16
+GavelScheduler,"(1, 88)",8.416691739940414e+16
+KMeansScheduler,"(1, 88)",1.4417537868826018e+16
+-------------90----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 101)",1.4411086319404418e+16
+ChronusScheduler,"(1, 101)",5.049183531267091e+16
+FragScheduler,"(1, 101)",1.4424380343286362e+16
+GavelScheduler,"(1, 101)",8.417334540747594e+16
+KMeansScheduler,"(1, 101)",1.4430999567429894e+16
+-------------100----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 114)",1.4411702207663668e+16
+ChronusScheduler,"(1, 114)",8.418950381864254e+16
+GavelScheduler,"(1, 114)",5.049420613442686e+16
+KMeansScheduler,"(1, 114)",1.4429175621594918e+16
+-------------110----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 126)",1.4418549939505084e+16
+ChronusScheduler,"(1, 126)",8.41899923988939e+16
+FragScheduler,"(1, 126)",1.781990599617898e+16
+GavelScheduler,"(1, 126)",1.4410868843055792e+16
+KMeansScheduler,"(1, 126)",1.4431717701987502e+16
+-------------120----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 137)",1.4418324117100508e+16
+ChronusScheduler,"(1, 137)",1.4419587268083078e+16
+FragScheduler,"(1, 137)",1.4434201381429392e+16
+GavelScheduler,"(1, 137)",1.4424090943535588e+16
+KMeansScheduler,"(1, 137)",1.4436960807842854e+16
+-------------130----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 148)",1.442089281810415e+16
+ChronusScheduler,"(1, 148)",1.4421870758175006e+16
+FragScheduler,"(1, 148)",1.8314679550499804e+16
+GavelScheduler,"(1, 148)",8.419638650440773e+16
+KMeansScheduler,"(1, 148)",1.442831384253621e+16
+-------------140----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 161)",1.5386719235272506e+16
+ChronusScheduler,"(1, 161)",8.630446771058326e+16
+FragScheduler,"(1, 161)",2.859487534628973e+16
+GavelScheduler,"(1, 161)",9.07495972452766e+16
+KMeansScheduler,"(1, 161)",1.539989605152508e+16
+-------------150----------------------
+scheduler_name,case_range,fat_sum
+AlloxScheduler,"(1, 172)",1.538666796465311e+16
+ChronusScheduler,"(1, 172)",2.1009386684796736e+16
+FragScheduler,"(1, 172)",1.8969159820033416e+16
+GavelScheduler,"(1, 172)",1.6531818296930244e+16
+KMeansScheduler,"(1, 172)",1.5418182045314056e+16

@@ -1,0 +1,92 @@
+Starting simulation...
+Case Path: /hydra/cases/csv/all_case.csv, Cluster Config: {"A100":10,"GTX2080Ti":15,"V100":20}
+Case Ranges: /hydra/cases/csv/all_case.csv, SchedulerTypes: [HydraPureHeuristic Allox Gavel Chronus Fgt]
+Start simulation time: 2025-01-10_06:21:49
+Starting Simulation For Scheduler HydraPureHeuristic, StartTime: 2025-01-10_06:21:49
+Simulation For Scheduler HydraPureHeuristic, CaseRange: [0 66], StartTime: 2025-01-10_06:21:49
+kMeans round finished, waitingJobsLength =  65
+kMeans round finished, waitingJobsLength =  64
+kMeans round finished, waitingJobsLength =  63
+kMeans round finished, waitingJobsLength =  62
+kMeans round finished, waitingJobsLength =  61
+kMeans round finished, waitingJobsLength =  60
+kMeans round finished, waitingJobsLength =  59
+kMeans round finished, waitingJobsLength =  58
+kMeans round finished, waitingJobsLength =  57
+kMeans round finished, waitingJobsLength =  56
+kMeans round finished, waitingJobsLength =  55
+kMeans round finished, waitingJobsLength =  54
+kMeans round finished, waitingJobsLength =  53
+kMeans round finished, waitingJobsLength =  52
+kMeans round finished, waitingJobsLength =  51
+kMeans round finished, waitingJobsLength =  50
+kMeans round finished, waitingJobsLength =  49
+kMeans round finished, waitingJobsLength =  48
+kMeans round finished, waitingJobsLength =  47
+kMeans round finished, waitingJobsLength =  46
+kMeans round finished, waitingJobsLength =  45
+kMeans round finished, waitingJobsLength =  44
+kMeans round finished, waitingJobsLength =  43
+kMeans round finished, waitingJobsLength =  42
+kMeans round finished, waitingJobsLength =  41
+kMeans round finished, waitingJobsLength =  40
+kMeans round finished, waitingJobsLength =  39
+kMeans round finished, waitingJobsLength =  38
+kMeans round finished, waitingJobsLength =  37
+kMeans round finished, waitingJobsLength =  36
+kMeans round finished, waitingJobsLength =  35
+kMeans round finished, waitingJobsLength =  34
+kMeans round finished, waitingJobsLength =  33
+kMeans round finished, waitingJobsLength =  32
+kMeans round finished, waitingJobsLength =  31
+kMeans round finished, waitingJobsLength =  30
+kMeans round finished, waitingJobsLength =  29
+kMeans round finished, waitingJobsLength =  28
+kMeans round finished, waitingJobsLength =  27
+kMeans round finished, waitingJobsLength =  26
+kMeans round finished, waitingJobsLength =  25
+kMeans round finished, waitingJobsLength =  24
+kMeans round finished, waitingJobsLength =  23
+kMeans round finished, waitingJobsLength =  22
+kMeans round finished, waitingJobsLength =  21
+kMeans round finished, waitingJobsLength =  20
+kMeans round finished, waitingJobsLength =  19
+kMeans round finished, waitingJobsLength =  18
+kMeans round finished, waitingJobsLength =  17
+kMeans round finished, waitingJobsLength =  16
+kMeans round finished, waitingJobsLength =  15
+kMeans round finished, waitingJobsLength =  14
+kMeans round finished, waitingJobsLength =  13
+kMeans round finished, waitingJobsLength =  12
+kMeans round finished, waitingJobsLength =  11
+kMeans round finished, waitingJobsLength =  10
+kMeans round finished, waitingJobsLength =   9
+kMeans round finished, waitingJobsLength =   8
+kMeans round finished, waitingJobsLength =   7
+kMeans round finished, waitingJobsLength =   6
+kMeans round finished, waitingJobsLength =   5
+kMeans round finished, waitingJobsLength =   4
+kMeans round finished, waitingJobsLength =   3
+kMeans round finished, waitingJobsLength =   2
+kMeans round finished, waitingJobsLength =   1
+kMeans round finished, waitingJobsLength =   0
+Simulation For Scheduler HydraPureHeuristic, CaseRange: [0 66] Finished, EndTime: 2025-01-10_06:21:50, RunTime: 0.50
+Ending Simulation For Scheduler HydraPureHeuristic, EndTime: 2025-01-10_06:21:50, RunTime: 0.50
+Starting Simulation For Scheduler Allox, StartTime: 2025-01-10_06:21:50
+Simulation For Scheduler Allox, CaseRange: [0 66], StartTime: 2025-01-10_06:21:50
+Simulation For Scheduler Allox, CaseRange: [0 66] Finished, EndTime: 2025-01-10_06:21:54, RunTime: 4.02
+Ending Simulation For Scheduler Allox, EndTime: 2025-01-10_06:21:54, RunTime: 4.02
+Starting Simulation For Scheduler Gavel, StartTime: 2025-01-10_06:21:54
+Simulation For Scheduler Gavel, CaseRange: [0 66], StartTime: 2025-01-10_06:21:54
+Simulation For Scheduler Gavel, CaseRange: [0 66] Finished, EndTime: 2025-01-10_06:21:54, RunTime: 0.01
+Ending Simulation For Scheduler Gavel, EndTime: 2025-01-10_06:21:54, RunTime: 0.01
+Starting Simulation For Scheduler Chronus, StartTime: 2025-01-10_06:21:54
+Simulation For Scheduler Chronus, CaseRange: [0 66], StartTime: 2025-01-10_06:21:54
+Simulation For Scheduler Chronus, CaseRange: [0 66] Finished, EndTime: 2025-01-10_06:21:54, RunTime: 0.01
+Ending Simulation For Scheduler Chronus, EndTime: 2025-01-10_06:21:54, RunTime: 0.01
+Starting Simulation For Scheduler Fgt, StartTime: 2025-01-10_06:21:54
+Simulation For Scheduler Fgt, CaseRange: [0 66], StartTime: 2025-01-10_06:21:54
+Simulation For Scheduler Fgt, CaseRange: [0 66] Finished, EndTime: 2025-01-10_06:21:54, RunTime: 0.01
+Ending Simulation For Scheduler Fgt, EndTime: 2025-01-10_06:21:54, RunTime: 0.01
+End Simulation Time: 2025-01-10_06:21:54, RunTime: 4.54
+generate report to /hydra/data/[lox_vel_nus_Fgt_tic]_all_case_case_range_([0_66]-[0_66])_01-10_06:21:54.json

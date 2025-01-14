@@ -1,0 +1,36 @@
+Starting simulation...
+Case Path: /hydra/cases/csv/all_case.csv, Cluster Config: {"A100":10,"GTX2080Ti":15,"V100":20}
+Case Ranges: /hydra/cases/csv/all_case.csv, SchedulerTypes: [HydraPureHeuristic Allox Gavel Chronus Fgt]
+Start simulation time: 2025-01-10_06:13:53
+Starting Simulation For Scheduler HydraPureHeuristic, StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler HydraPureHeuristic, CaseRange: [0 10], StartTime: 2025-01-10_06:13:53
+kMeans round finished, waitingJobsLength =   9
+kMeans round finished, waitingJobsLength =   8
+kMeans round finished, waitingJobsLength =   7
+kMeans round finished, waitingJobsLength =   6
+kMeans round finished, waitingJobsLength =   5
+kMeans round finished, waitingJobsLength =   4
+kMeans round finished, waitingJobsLength =   3
+kMeans round finished, waitingJobsLength =   2
+kMeans round finished, waitingJobsLength =   1
+kMeans round finished, waitingJobsLength =   0
+Simulation For Scheduler HydraPureHeuristic, CaseRange: [0 10] Finished, EndTime: 2025-01-10_06:13:53, RunTime: 0.02
+Ending Simulation For Scheduler HydraPureHeuristic, EndTime: 2025-01-10_06:13:53, RunTime: 0.02
+Starting Simulation For Scheduler Allox, StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Allox, CaseRange: [0 10], StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Allox, CaseRange: [0 10] Finished, EndTime: 2025-01-10_06:13:53, RunTime: 0.02
+Ending Simulation For Scheduler Allox, EndTime: 2025-01-10_06:13:53, RunTime: 0.02
+Starting Simulation For Scheduler Gavel, StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Gavel, CaseRange: [0 10], StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Gavel, CaseRange: [0 10] Finished, EndTime: 2025-01-10_06:13:53, RunTime: 0.00
+Ending Simulation For Scheduler Gavel, EndTime: 2025-01-10_06:13:53, RunTime: 0.00
+Starting Simulation For Scheduler Chronus, StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Chronus, CaseRange: [0 10], StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Chronus, CaseRange: [0 10] Finished, EndTime: 2025-01-10_06:13:53, RunTime: 0.00
+Ending Simulation For Scheduler Chronus, EndTime: 2025-01-10_06:13:53, RunTime: 0.00
+Starting Simulation For Scheduler Fgt, StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Fgt, CaseRange: [0 10], StartTime: 2025-01-10_06:13:53
+Simulation For Scheduler Fgt, CaseRange: [0 10] Finished, EndTime: 2025-01-10_06:13:53, RunTime: 0.00
+Ending Simulation For Scheduler Fgt, EndTime: 2025-01-10_06:13:53, RunTime: 0.00
+End Simulation Time: 2025-01-10_06:13:53, RunTime: 0.05
+generate report to /hydra/data/[tic_lox_vel_nus_Fgt]_all_case_case_range_([0_10]-[0_10])_01-10_06:13:53.json

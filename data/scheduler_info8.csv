@@ -1,0 +1,19 @@
+scheduler_name,case_range,average_jct_seconds,average_queue_delay_seconds,average_ddl_violation_duration_seconds,total_ddl_violation_duration_seconds
+FragScheduler,"[0, 20]",5907.8,0,0,0
+FragScheduler,"[0, 30]",6118.8,446.76666666666665,0,0
+FragScheduler,"[0, 40]",9565.5,651.925,0,0
+FragScheduler,"[0, 50]",10004.5,1308.72,0,0
+FragScheduler,"[0, 60]",12723.95,1702.2,0,0
+FragScheduler,"[0, 70]",12638.171428571428,1476.8,0,0
+FragScheduler,"[0, 80]",169335.225,1519.3,0,0
+FragScheduler,"[0, 90]",152039.42222222223,2179.5777777777776,0,0
+FragScheduler,"[0, 100]",138414.34,2020.55,0,0
+KMeansScheduler,"[0, 20]",6820.6,654.45,0,0
+KMeansScheduler,"[0, 30]",7043.733333333334,907.0666666666667,0,0
+KMeansScheduler,"[0, 40]",11567.525,1451.5499999999997,0,0
+KMeansScheduler,"[0, 50]",12219,2357.4,0,0
+KMeansScheduler,"[0, 60]",15664,2953.25,0,0
+KMeansScheduler,"[0, 70]",15472.528571428571,2673.0714285714284,0,0
+KMeansScheduler,"[0, 80]",172398.4875000001,2779.375,0,0
+KMeansScheduler,"[0, 90]",155683.4222222223,3723.7555555555555,0,0
+KMeansScheduler,"[0, 100]",141762.09000000003,4516.41,0,0

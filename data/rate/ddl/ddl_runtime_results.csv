@@ -1,0 +1,60 @@
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 21],0.06
+Allox,[0 21],0.14
+Gavel,[0 21],0.00
+Chronus,[0 21],0.00
+Fgt,[0 21],0.00
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 43],0.23
+Allox,[0 43],0.95
+Gavel,[0 43],0.01
+Chronus,[0 43],0.01
+Fgt,[0 43],0.00
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 66],0.50
+Allox,[0 66],4.04
+Gavel,[0 66],0.01
+Chronus,[0 66],0.01
+Fgt,[0 66],0.01
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 88],0.87
+Allox,[0 88],11.48
+Gavel,[0 88],0.01
+Chronus,[0 88],0.02
+Fgt,[0 88],0.01
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 114],1.19
+Allox,[0 114],27.42
+Gavel,[0 114],0.02
+Chronus,[0 114],0.02
+Fgt,[0 114],0.00
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 137],1.62
+Allox,[0 137],52.64
+Gavel,[0 137],0.02
+Chronus,[0 137],0.03
+Fgt,[0 137],0.00
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 161],2.09
+Allox,[0 161],86.87
+Gavel,[0 161],0.02
+Chronus,[0 161],0.03
+Fgt,[0 161],0.01
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 184],2.71
+Allox,[0 184],137.12
+Gavel,[0 184],0.03
+Chronus,[0 184],0.03
+Fgt,[0 184],0.01
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 205],3.30
+Allox,[0 205],196.85
+Gavel,[0 205],0.03
+Chronus,[0 205],0.03
+Fgt,[0 205],0.01
+Scheduler,CaseRange,Runtime
+HydraPureHeuristic,[0 229],4.01
+Allox,[0 229],291.83
+Gavel,[0 229],0.04
+Chronus,[0 229],0.04
+Fgt,[0 229],0.01
